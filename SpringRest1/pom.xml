@@ -58,7 +58,20 @@
 	        <artifactId>spring-boot-devtools</artifactId>
 	    </dependency>
 
+	<!-- Spring data JPA Starter -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<version>1.2.6.RELEASE</version>
+		</dependency>
 		
+	<!-- Inject dependency -->
+	<dependency>
+		<groupId>javax.inject</groupId>
+		<artifactId>javax.inject</artifactId>
+		<version>1</version>
+	</dependency>
+
 	</dependencies>
 	
 	<build>
